@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/home_bg"
+    tools:context=".ImageView">
+    
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        
+        <Button
+            android:background="@drawable/profile_btn"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btn1"
+            android:layout_width="140dp"
+            android:layout_height="90dp" />
+
+        <Button
+            android:background="@drawable/notif_btn"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"/>
+        
+    </RelativeLayout>
+
+        <ImageView
+            android:background="@drawable/splash_logo"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="107dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <Button
+            android:background="@drawable/rank_btn"
+            android:layout_width="230dp"
+            android:layout_height="75dp"/>
+
+        <Button
+            android:background="@drawable/off_btn"
+            android:layout_marginTop="-15dp"
+            android:layout_width="230dp"
+            android:layout_height="75dp"/>
+
+        <Button
+            android:background="@drawable/play_btn"
+            android:layout_marginTop="-15dp"
+            android:layout_width="230dp"
+            android:layout_height="75dp"/>
+
+        <Button
+            android:background="@drawable/practice_btn"
+            android:layout_marginTop="-15dp"
+            android:layout_width="230dp"
+            android:layout_height="75dp"/>
+    
+</LinearLayout>
